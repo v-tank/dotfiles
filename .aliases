@@ -174,7 +174,5 @@ alias gs='git status'
 alias n='node'
 alias nd='nodemon'
 
-alias py='python3'
-
 alias rnri='react-native run-ios'
 alias rnra='react-native run-android'
