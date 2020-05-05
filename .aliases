@@ -173,3 +173,6 @@ alias gs='git status'
 
 alias n='node'
 alias nd='nodemon'
+
+alias rnri='react-native run-ios'
+alias rnra='react-native run-android'
