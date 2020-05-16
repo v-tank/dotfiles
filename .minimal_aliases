@@ -1,0 +1,34 @@
+# Aliases
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias d="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias g="git"
+
+# Clear screen
+alias c="clear"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Custom aliases
+alias code='open -a "VS Code"'
+
+alias ga='git add'
+alias gaa='git add .'
+alias gcm='git commit -m'
+alias gs='git status'
+
+alias l='ls -al'
+
+alias n='node'
+alias nd='nodemon'
